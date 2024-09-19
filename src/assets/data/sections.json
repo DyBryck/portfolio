@@ -6,7 +6,7 @@
   },
   {
     "heading": "Mes projets",
-    "image": "./src/assets/images/memojis/memoji-laptop.webp",
+    "image": "./assets/images/memojis/memoji-laptop.webp",
     "content": "Lors de ma formation d’intégrateur web sur OpenClassrooms, j’ai réalisé 11 projets, maîtrisant Git, HTML, CSS, Sass, React et Redux. Cela m’a permis de créer des interfaces réactives et renforcer mes compétences en gestion de version."
   }
 ]
