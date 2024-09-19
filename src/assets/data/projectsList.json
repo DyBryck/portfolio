@@ -70,7 +70,7 @@
   {
     "id": 10,
     "heading": "Développement front-end d’une application bancaire avec React et Redux",
-    "image": "/images/projects/argentbank.jpg",
+    "image": "/images/projects/argentbank.webp",
     "preview": "/images/projects/argentbank-preview.webp",
     "content": "J’ai développé le front-end d’une application bancaire avec React et Redux pour une expérience utilisateur dynamique. J’ai intégré le front-end au back-end via des appels API REST, créé un tableau de bord utilisateur responsive, et utilisé Redux pour la gestion de l’état global. Swagger a servi à définir les points d’accès de l’API, et Node.js a été utilisé pour le code côté serveur, offrant une gestion full-stack de l’application.",
     "link": "https://github.com/DyBryck/Projet-10-ArgentBank"
@@ -85,7 +85,7 @@
   {
     "id": 12,
     "heading": "Création et publication de mon portfolio de développeur",
-    "image": "/images/projects/portfolio.png",
+    "image": "/images/projects/portfolio.webp",
     "preview": "/images/projects/portfolio-preview.webp",
     "content": "Ce projet final consistait à créer et publier en ligne mon propre portfolio de développeur, permettant de présenter mes compétences, mon parcours et mes projets de manière professionnelle. J’ai assuré un responsive design pour une compatibilité optimale sur tous les appareils. Enfin, j’ai débogué et optimisé le site pour améliorer les performances et le référencement SEO, garantissant ainsi une bonne visibilité sur les moteurs de recherche."
   }
