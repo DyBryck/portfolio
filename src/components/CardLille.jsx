@@ -1,4 +1,4 @@
-import mapScreenLille from "../assets/images/maps/lille.png";
+import mapScreenLille from "../../public/images/maps/lille.png";
 
 const CardLille = () => {
   return (

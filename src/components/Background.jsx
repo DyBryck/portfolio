@@ -1,4 +1,4 @@
-import videoBackground from "../assets/images/background/background.mp4";
+import videoBackground from "../../public/images/background/background.mp4";
 
 const Background = () => {
   return (
