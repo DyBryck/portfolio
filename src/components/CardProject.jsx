@@ -41,7 +41,7 @@ const Modal = ({ project, onClose }) => {
       onClick={handleClickOutside}
     >
       <div
-        className={`relative flex h-full w-full transform flex-col items-center justify-center overflow-hidden rounded-lg shadow-xl backdrop-blur-xl transition-all duration-300 lg:flex-row ${
+        className={`relative flex h-full w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg shadow-xl backdrop-blur-xl transition-all duration-300 md:flex-col lg:flex-row ${
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >
@@ -54,7 +54,7 @@ const Modal = ({ project, onClose }) => {
         >
           X
         </button>
-        <div className="flex h-full w-full flex-col justify-center overflow-scroll bg-white/40 p-4 md:h-2/6 lg:h-full xl:w-2/6 xl:p-12">
+        <div className="flex h-auto w-full flex-col justify-center overflow-scroll bg-white/40 p-4 md:h-2/6 lg:h-full lg:w-2/6 xl:p-12">
           <h4 className="mb-4 text-2xl font-bold">{project.heading}</h4>
           <p className="mb-4 xl:leading-8">{project.content}</p>
           {project.link && (
@@ -67,7 +67,7 @@ const Modal = ({ project, onClose }) => {
             </a>
           )}
         </div>
-        <div className="relative hidden h-4/6 w-full overflow-scroll md:flex lg:h-full xl:w-4/6">
+        <div className="relative hidden h-4/6 w-full overflow-scroll md:flex lg:h-full lg:w-4/6">
           <img
             src={project.image}
             alt={`Projet ` + project.id}

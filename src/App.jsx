@@ -19,7 +19,7 @@ const App = () => {
     <>
       <Background />
       <div className="mb-16 mt-4 flex items-center justify-center rounded-xl bg-white/10 p-8 text-center shadow-xl backdrop-blur-xl">
-        <h1 className="rounded-lg text-3xl font-bold md:text-5xl">
+        <h1 className="rounded-lg text-3xl font-bold uppercase md:text-5xl">
           Portfolio Dylan Bryckaert
         </h1>
       </div>
