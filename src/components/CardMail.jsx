@@ -1,6 +1,6 @@
 const CardMail = () => {
   return (
-    <div className="col-span-3 row-span-1 flex cursor-pointer items-center justify-center rounded-lg bg-white/10 opacity-80 shadow-lg backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:col-span-1 md:row-span-2 lg:col-span-1 lg:row-span-1">
+    <div className="col-span-3 row-span-1 flex items-center justify-center rounded-lg bg-white/20 opacity-80 shadow-lg backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:col-span-1 md:row-span-2 lg:col-span-1 lg:row-span-1">
       <a
         href="mailto:dylan.bryckaert@gmail.com"
         className="items-center justify-center transition-all duration-500 hover:scale-110"

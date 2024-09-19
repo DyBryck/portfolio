@@ -16,7 +16,7 @@ const Modal = ({ project, onClose }) => {
   const handleClickOutside = (e) => {
     if (e.target.id === "modal-background") {
       setIsVisible(false);
-      setTimeout(onClose, 300);
+      setTimeout(onClose, 500);
     }
   };
 
@@ -24,7 +24,7 @@ const Modal = ({ project, onClose }) => {
     const handleEsc = (event) => {
       if (event.key === "Escape") {
         setIsVisible(false);
-        setTimeout(onClose, 300);
+        setTimeout(onClose, 500);
       }
     };
 
@@ -37,20 +37,20 @@ const Modal = ({ project, onClose }) => {
   return (
     <div
       id="modal-background"
-      className={`fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center p-4 transition-all duration-300 md:p-8 ${isVisible ? "backdrop-blur-2xl" : "bg-black/0"}`}
+      className={`fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center p-4 transition-all duration-500 md:p-8 ${isVisible ? "backdrop-blur-2xl" : "bg-black/0"}`}
       onClick={handleClickOutside}
     >
       <div
-        className={`relative flex h-full w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg shadow-xl backdrop-blur-xl transition-all duration-300 md:flex-col lg:flex-row ${
+        className={`relative flex h-full max-h-[800px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg shadow-xl backdrop-blur-xl transition-all duration-500 md:flex-col lg:flex-row ${
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >
         <button
           onClick={() => {
             setIsVisible(false);
-            setTimeout(onClose, 300);
+            setTimeout(onClose, 500);
           }}
-          className="absolute right-2 top-2 text-gray-500 hover:text-gray-800"
+          className="absolute right-2 top-2 z-10 text-gray-500 hover:text-gray-800"
         >
           X
         </button>
@@ -71,6 +71,7 @@ const Modal = ({ project, onClose }) => {
           <img
             src={project.image}
             alt={`Projet ` + project.id}
+            loading="lazy"
             className="absolute left-0 top-0 object-cover"
           />
         </div>
@@ -98,14 +99,15 @@ const CardProject = ({ project }) => {
   return (
     <>
       <div
-        className="group col-span-6 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/10 opacity-80 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 lg:col-span-3"
+        className="group col-span-6 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/20 opacity-80 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 lg:col-span-3"
         onClick={handleOpenModal}
       >
         <div className="h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
           <img
             src={project.image}
             alt={`Projet ` + project.id}
-            className="h-full w-full object-cover object-top transition-all duration-500 group-hover:scale-105"
+            loading="lazy"
+            className="max-w-full object-cover object-top transition-all duration-500 group-hover:scale-105"
           />
         </div>
         <h4 className="p-4 font-bold">{project.heading}</h4>

@@ -13,6 +13,7 @@ html,
 body,
 #root {
   font-family: "SF Pro Display";
+  height: auto;
 }
 
 #root {
