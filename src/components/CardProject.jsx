@@ -37,11 +37,11 @@ const Modal = ({ project, onClose }) => {
   return (
     <div
       id="modal-background"
-      className={`fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center transition-all duration-500 md:p-8 ${isVisible ? "backdrop-blur-xl" : "bg-black/0"}`}
+      className={`fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center p-4 transition-all duration-500 md:p-8 ${isVisible ? "backdrop-blur-xl" : "bg-black/0"}`}
       onClick={handleClickOutside}
     >
       <div
-        className={`relative flex h-full max-h-[600px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-white/70 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-4xl lg:flex-row lg:p-9 ${
+        className={`relative flex h-full max-h-[600px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-white/70 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-7xl lg:flex-row lg:p-9 ${
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >
@@ -61,7 +61,7 @@ const Modal = ({ project, onClose }) => {
             <path d="M7.719 6.281 6.28 7.72 23.563 25 6.28 42.281l1.44 1.439L25 26.438l17.281 17.28 1.438-1.437L26.438 25l17.28-17.281-1.437-1.438L25 23.563Z" />
           </svg>
         </button>
-        <div className="flex h-full w-full flex-col justify-center overflow-scroll pr-6 md:h-1/2 lg:h-full lg:w-2/6 xl:p-12">
+        <div className="flex h-full w-full flex-col justify-center overflow-scroll p-4 md:h-1/2 lg:h-full lg:w-2/6 lg:pr-6 xl:p-12">
           <h4 className="mb-4 text-2xl font-bold">{project.heading}</h4>
           <p className="mb-4 xl:leading-8">{project.content}</p>
           {project.link && (

@@ -1162,12 +1162,24 @@ body,
     max-width: 56rem;
   }
 
+  .lg\:max-w-6xl {
+    max-width: 72rem;
+  }
+
+  .lg\:max-w-7xl {
+    max-width: 80rem;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:p-9 {
     padding: 2.25rem;
+  }
+
+  .lg\:pr-6 {
+    padding-right: 1.5rem;
   }
 }
 
@@ -1190,6 +1202,22 @@ body,
 
   .xl\:row-span-2 {
     grid-row: span 2 / span 2;
+  }
+
+  .xl\:h-16 {
+    height: 4rem;
+  }
+
+  .xl\:h-24 {
+    height: 6rem;
+  }
+
+  .xl\:h-8 {
+    height: 2rem;
+  }
+
+  .xl\:w-16 {
+    width: 4rem;
   }
 
   .xl\:flex-col {
