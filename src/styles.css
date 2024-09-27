@@ -709,10 +709,6 @@ video {
   width: 100%;
 }
 
-.w-24 {
-  width: 6rem;
-}
-
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -757,6 +753,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -830,20 +830,12 @@ video {
   padding: 2rem;
 }
 
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 .font-sans {
@@ -1011,36 +1003,12 @@ body,
     grid-row: span 3 / span 3;
   }
 
-  .md\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .md\:flex {
     display: flex;
   }
 
-  .md\:h-2\/6 {
-    height: 33.333333%;
-  }
-
-  .md\:h-3\/4 {
-    height: 75%;
-  }
-
-  .md\:h-2\/3 {
-    height: 66.666667%;
-  }
-
   .md\:h-1\/2 {
     height: 50%;
-  }
-
-  .md\:max-h-\[800px\] {
-    max-height: 800px;
-  }
-
-  .md\:max-h-\[700px\] {
-    max-height: 700px;
   }
 
   .md\:max-h-\[650px\] {
@@ -1063,16 +1031,12 @@ body,
     border-radius: 0.5rem;
   }
 
-  .md\:p-8 {
-    padding: 2rem;
-  }
-
-  .md\:p-9 {
-    padding: 2.25rem;
-  }
-
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:text-5xl {
@@ -1114,56 +1078,32 @@ body,
     margin-bottom: 1rem;
   }
 
-  .lg\:h-full {
-    height: 100%;
-  }
-
-  .lg\:h-2\/3 {
-    height: 66.666667%;
-  }
-
-  .lg\:h-3\/4 {
-    height: 75%;
-  }
-
-  .lg\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .lg\:h-32 {
-    height: 8rem;
+  .lg\:h-16 {
+    height: 4rem;
   }
 
   .lg\:h-24 {
     height: 6rem;
   }
 
-  .lg\:h-16 {
-    height: 4rem;
+  .lg\:h-32 {
+    height: 8rem;
   }
 
-  .lg\:h-2\/6 {
-    height: 33.333333%;
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:w-2\/6 {
     width: 33.333333%;
   }
 
-  .lg\:w-4\/6 {
-    width: 66.666667%;
-  }
-
   .lg\:w-24 {
     width: 6rem;
   }
 
-  .lg\:max-w-4xl {
-    max-width: 56rem;
-  }
-
-  .lg\:max-w-6xl {
-    max-width: 72rem;
+  .lg\:w-4\/6 {
+    width: 66.666667%;
   }
 
   .lg\:max-w-7xl {
@@ -1172,6 +1112,10 @@ body,
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
   }
 
   .lg\:p-9 {
@@ -1204,6 +1148,10 @@ body,
     grid-row: span 2 / span 2;
   }
 
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .xl\:h-16 {
     height: 4rem;
   }
@@ -1224,8 +1172,8 @@ body,
     flex-direction: column;
   }
 
-  .xl\:p-12 {
-    padding: 3rem;
+  .xl\:pr-12 {
+    padding-right: 3rem;
   }
 
   .xl\:leading-8 {

@@ -4,7 +4,7 @@ import skillsList from "../assets/data/skillsList.json";
 const CardSkills = () => {
   return (
     <div className="col-span-6 flex flex-col items-center justify-center rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:opacity-80 lg:col-span-3 lg:row-span-2 xl:col-span-2 xl:row-span-1">
-      <h2 className="text-3xl font-bold lg:mb-4">Mes compétences</h2>
+      <h2 className="text-3xl font-bold lg:mb-4 xl:mb-0">Mes compétences</h2>
       <Marquee
         className="h-24 cursor-pointer lg:h-32 xl:h-24"
         pauseOnHover="true"

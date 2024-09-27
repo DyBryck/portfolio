@@ -1,4 +1,4 @@
-import mapScreenDunkirk from "../../public/images/maps/dunkirk.webp";
+import mapScreenDunkirk from "/images/maps/dunkirk.webp";
 
 const CardDunkirk = () => {
   return (

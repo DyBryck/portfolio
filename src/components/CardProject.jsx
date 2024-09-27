@@ -61,16 +61,25 @@ const Modal = ({ project, onClose }) => {
             <path d="M7.719 6.281 6.28 7.72 23.563 25 6.28 42.281l1.44 1.439L25 26.438l17.281 17.28 1.438-1.437L26.438 25l17.28-17.281-1.437-1.438L25 23.563Z" />
           </svg>
         </button>
-        <div className="flex h-full w-full flex-col justify-center overflow-scroll p-4 md:h-1/2 lg:h-full lg:w-2/6 lg:pr-6 xl:p-12">
+        <div className="flex h-full w-full flex-col justify-center overflow-scroll p-4 md:h-1/2 lg:h-full lg:w-2/6 lg:p-0 lg:pr-6 xl:pr-12">
           <h4 className="mb-4 text-2xl font-bold">{project.heading}</h4>
           <p className="mb-4 xl:leading-8">{project.content}</p>
-          {project.link && (
+          {project.githubLink && (
             <a
-              href={project.link}
+              href={project.githubLink}
               target="_blank"
               className="text-right underline"
             >
-              Voir le projet
+              Voir le site
+            </a>
+          )}
+          {project.pageLink && (
+            <a
+              href={project.pageLink}
+              target="_blank"
+              className="text-right underline"
+            >
+              Voir le code
             </a>
           )}
         </div>
@@ -117,7 +126,16 @@ const CardProject = ({ project }) => {
             className="mb-4 min-h-full w-full object-cover object-top transition-all duration-500 group-hover:scale-105"
           />
         </div>
-        <h4 className="h-1/4 p-4 text-center font-bold">{project.heading}</h4>
+        <div className="flex flex-col items-center justify-between p-4">
+          <h4 className="mb-4 h-1/4 text-center font-bold">
+            {project.heading}
+          </h4>
+          <div className="flex items-center justify-center gap-4">
+            {project.tags.map((tag, i) => (
+              <p key={project.heading + i}>{tag}</p>
+            ))}
+          </div>
+        </div>
       </div>
 
       {isModalOpen && <Modal project={project} onClose={handleCloseModal} />}
