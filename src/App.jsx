@@ -34,12 +34,13 @@ const App = () => {
         <CardGitHub />
         <CardDunkirk />
         <CardCV />
+        <CardSkills />
         <CardSection
           title={sections[1].heading}
           image={sections[1].image}
           content={sections[1].content}
         />
-        <CardSkills />
+
         {projectsList.map((project) => (
           <React.Fragment key={project.id}>
             <CardProject project={project} />
