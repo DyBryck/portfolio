@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function ContactForm() {
+const CardForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -67,6 +67,6 @@ function ContactForm() {
       {status && <p>{status}</p>}
     </div>
   );
-}
+};
 
-export default ContactForm;
+export default CardForm;
