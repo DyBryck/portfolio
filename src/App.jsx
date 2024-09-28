@@ -13,6 +13,7 @@ import {
   CardSection,
   CardSkills,
 } from "./components/Components";
+import ContactForm from "./components/ContactForm";
 
 const App = () => {
   return (
@@ -47,6 +48,7 @@ const App = () => {
           </React.Fragment>
         ))}
       </div>
+      <ContactForm />
     </>
   );
 };
