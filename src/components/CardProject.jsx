@@ -41,7 +41,7 @@ const Modal = ({ project, onClose }) => {
       onClick={handleClickOutside}
     >
       <div
-        className={`relative flex h-full max-h-[600px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-white/70 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-7xl lg:flex-row lg:p-9 ${
+        className={`relative flex h-full max-h-[600px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-white/70 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-7xl lg:flex-row lg:p-9 dark:bg-black/70 ${
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >
@@ -50,7 +50,7 @@ const Modal = ({ project, onClose }) => {
             setIsVisible(false);
             setTimeout(onClose, 500);
           }}
-          className="absolute right-2 top-2 z-10 text-gray-500 hover:text-gray-800"
+          className="absolute right-2 top-2 z-10"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -58,30 +58,33 @@ const Modal = ({ project, onClose }) => {
             height="30"
             viewBox="0 0 50 50"
           >
-            <path d="M7.719 6.281 6.28 7.72 23.563 25 6.28 42.281l1.44 1.439L25 26.438l17.281 17.28 1.438-1.437L26.438 25l17.28-17.281-1.437-1.438L25 23.563Z" />
+            <path
+              d="M7.719 6.281 6.28 7.72 23.563 25 6.28 42.281l1.44 1.439L25 26.438l17.281 17.28 1.438-1.437L26.438 25l17.28-17.281-1.437-1.438L25 23.563Z"
+              stroke="currentColor"
+              fill="currentColor"
+            />
           </svg>
         </button>
         <div className="flex h-full w-full flex-col justify-center overflow-scroll p-4 md:h-1/2 lg:h-full lg:w-2/6 lg:p-0 lg:pr-6 xl:pr-12">
           <h4 className="mb-4 text-2xl font-bold">{project.heading}</h4>
           <p className="mb-4 xl:leading-8">{project.content}</p>
-          {project.githubLink && (
-            <a
-              href={project.githubLink}
-              target="_blank"
-              className="text-right underline"
-            >
-              Voir le site
-            </a>
-          )}
-          {project.pageLink && (
-            <a
-              href={project.pageLink}
-              target="_blank"
-              className="text-right underline"
-            >
-              Voir le code
-            </a>
-          )}
+          <div className="inline text-right">
+            {project.githubLink && (
+              <a
+                href={project.githubLink}
+                target="_blank"
+                className="underline"
+              >
+                Voir le site
+              </a>
+            )}
+            <br />
+            {project.pageLink && (
+              <a href={project.pageLink} target="_blank" className="underline">
+                Voir le code
+              </a>
+            )}
+          </div>
         </div>
         <div className="relative hidden h-4/6 w-full overflow-scroll md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
           <img
@@ -115,7 +118,7 @@ const CardProject = ({ project }) => {
   return (
     <>
       <div
-        className="group col-span-6 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:opacity-80 lg:col-span-3"
+        className="group col-span-6 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:opacity-80 lg:col-span-3 dark:bg-black/20"
         onClick={handleOpenModal}
       >
         <div className="h-3/4 w-full overflow-hidden rounded-t-lg object-cover">

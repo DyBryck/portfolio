@@ -1,11 +1,12 @@
 import React from "react";
 import projectsList from "./assets/data/projectsList.json";
 import sections from "./assets/data/sections.json";
-
 import Background from "./components/Background";
+import ButtonToTop from "./components/ButtonToTop";
 import {
   CardCV,
   CardDunkirk,
+  CardForm,
   CardGitHub,
   CardLille,
   CardMail,
@@ -18,7 +19,8 @@ const App = () => {
   return (
     <>
       <Background />
-      <div className="mb-16 mt-4 flex items-center justify-center rounded-xl bg-white/20 p-8 text-center shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105">
+      <ButtonToTop />
+      <div className="mb-16 mt-4 flex items-center justify-center rounded-lg bg-white/20 p-8 text-center shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 dark:bg-black/20">
         <h1 className="rounded-lg text-3xl font-bold uppercase md:text-5xl">
           Portfolio Dylan Bryckaert
         </h1>
@@ -46,6 +48,7 @@ const App = () => {
             <CardProject project={project} />
           </React.Fragment>
         ))}
+        <CardForm />
       </div>
     </>
   );

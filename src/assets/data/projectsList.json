@@ -11,7 +11,7 @@
   },
   {
     "id": 3,
-    "heading": "Page d'accueil d'une agence de voyage avec HTML & CSS",
+    "heading": "Page d'accueil d'une agence de voyage",
     "preview": "/images/projects/booki/booki-preview.png",
     "image": "/images/projects/booki-original.webp",
     "content": "Dans ce projet, j’ai créé la page d’accueil d’une agence de voyage en HTML et CSS, en concevant une interface responsive pour mobile, tablette et desktop. En suivant les maquettes Figma et les instructions fournies, j’ai conçu et codé des composants d’interface pour reproduire fidèlement le design.",
@@ -39,7 +39,7 @@
   },
   {
     "id": 6,
-    "heading": "Création d'une page web dynamique avec JavaScript",
+    "heading": "Création d'une page web dynamique",
     "preview": "/images/projects/sophiebluel-preview.webp",
     "image": "/images/projects/sophiebluel-original.webp",
     "content": "J’ai créé une page web dynamique pour une architecte d’intérieur avec JavaScript et une API. J’ai manipulé le DOM, géré les événements, et ajouté une page de connexion administrateur ainsi qu’une modale pour l’upload de médias. Le projet a impliqué le développement de fonctionnalités from scratch et l’interaction avec un back-end.",
@@ -75,7 +75,7 @@
   },
   {
     "id": 10,
-    "heading": "Développement front-end d’une application avec React et Redux",
+    "heading": "Développement front-end d’une application",
     "preview": "/images/projects/argentbank-preview.webp",
     "image": "/images/projects/argentbank-original.webp",
     "content": "J’ai développé le front-end d’une application bancaire avec React et Redux pour une expérience utilisateur dynamique. J’ai intégré le front-end au back-end via des appels API REST, créé un tableau de bord utilisateur responsive, et utilisé Redux pour la gestion de l’état global. Swagger a servi à définir les points d’accès de l’API, et Node.js a été utilisé pour le code côté serveur, offrant une gestion full-stack de l’application.",
