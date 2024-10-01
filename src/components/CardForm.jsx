@@ -34,7 +34,7 @@ const CardForm = () => {
   };
 
   return (
-    <div className="col-span-6 row-span-3 flex flex-col items-center rounded-lg bg-white/20 p-4 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:col-span-2 md:opacity-80 lg:col-span-3 dark:bg-black/20">
+    <div className="col-span-6 row-span-3 flex flex-col items-center rounded-lg bg-white/20 p-4 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-2 lg:col-span-3 dark:bg-black/20">
       <h2 className="mb-4 text-xl font-bold">Contactez-moi</h2>
       <form
         onSubmit={handleSubmit}
@@ -71,7 +71,7 @@ const CardForm = () => {
         </label>
         <button
           type="submit"
-          className="h-10 w-1/2 self-center rounded-lg bg-white/30 transition-all duration-300 active:scale-95 dark:bg-black/30"
+          className="h-10 w-1/2 self-center rounded-lg bg-white/30 transition-all duration-150 active:scale-90 dark:bg-black/30"
           disabled={isLoading}
         >
           Envoyer

@@ -28,7 +28,7 @@ const ButtonToTop = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-5 right-5 z-10 rounded-full bg-white/30 p-4 shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-110 active:scale-95 dark:bg-black/30 ${isVisible ? "opacity-100" : "pointer-events-none opacity-0"}`}
+      className={`fixed bottom-5 right-5 z-10 rounded-full bg-white/30 p-4 shadow-lg backdrop-blur-sm transition-all duration-300 active:scale-90 dark:bg-black/30 ${isVisible ? "opacity-100" : "pointer-events-none opacity-0"}`}
     >
       <svg
         width="40"

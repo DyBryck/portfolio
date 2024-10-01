@@ -113,7 +113,7 @@ const CardProject = ({ project }) => {
   return (
     <>
       <div
-        className="group col-span-6 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:opacity-80 lg:col-span-3 dark:bg-black/20"
+        className="group col-span-6 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 lg:col-span-3 dark:bg-black/20"
         onClick={handleOpenModal}
       >
         <div className="card-project-image h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
