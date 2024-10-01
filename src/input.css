@@ -18,16 +18,24 @@
     background-image: url("/images/background/dark.webp");
   }
 
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  .light-bg-sm {
+    background-image: url("/images/background/light-sm.webp");
+    background-size: inherit;
+  }
+
+  .dark-bg-sm {
+    background-image: url("/images/background/dark-sm.webp");
+    background-size: inherit;
+  }
+
+  .light-bg-xl {
+    background-image: url("/images/background/light-xl.webp");
+    background-position: top;
+  }
+
+  .dark-bg-xl {
+    background-image: url("/images/background/dark-xl.webp");
+    background-position: top;
   }
 }
 
