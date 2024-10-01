@@ -818,6 +818,14 @@ video {
   gap: 1rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .self-center {
   align-self: center;
 }
@@ -1216,12 +1224,28 @@ body,
     height: 100%;
   }
 
+  .lg\:h-8 {
+    height: 2rem;
+  }
+
+  .lg\:h-16 {
+    height: 4rem;
+  }
+
+  .lg\:h-24 {
+    height: 6rem;
+  }
+
   .lg\:w-2\/6 {
     width: 33.333333%;
   }
 
   .lg\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .lg\:w-24 {
+    width: 6rem;
   }
 
   .lg\:max-w-7xl {

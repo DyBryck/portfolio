@@ -15,24 +15,13 @@ const CardSkills = () => {
         {skillsList.map((skill) => (
           <div
             key={skill.name}
-            className="mr-12 flex h-16 w-16 items-center justify-center rounded-full bg-white/30 transition-transform duration-500 hover:scale-110 xl:h-16 xl:w-16 dark:bg-black/30"
+            className="mr-12 flex h-16 w-16 items-center justify-center rounded-full bg-white/30 transition-transform duration-500 hover:scale-110 lg:h-24 lg:w-24 xl:h-16 xl:w-16 dark:bg-black/30"
           >
-            <img src={skill.logo} alt={"Logo " + skill.name} className="h-8" />
-          </div>
-        ))}
-      </Marquee>
-      <Marquee
-        className="hidden h-32 cursor-pointer lg:flex xl:hidden"
-        pauseOnHover="true"
-        direction="right"
-        speed={30}
-      >
-        {skillsList.map((skill) => (
-          <div
-            key={skill.name}
-            className="mr-12 flex h-16 w-16 items-center justify-center rounded-full bg-white/30 transition-transform duration-500 hover:scale-110 dark:bg-black/30"
-          >
-            <img src={skill.logo} alt={"Logo " + skill.name} className="h-8" />
+            <img
+              src={skill.logo}
+              alt={"Logo " + skill.name}
+              className="h-8 lg:h-16 xl:h-8"
+            />
           </div>
         ))}
       </Marquee>

@@ -38,7 +38,7 @@ const CardForm = () => {
       <h2 className="mb-4 text-xl font-bold">Contactez-moi</h2>
       <form
         onSubmit={handleSubmit}
-        className="flex h-full w-full flex-col justify-around gap-4"
+        className="flex h-full w-full flex-col gap-5"
       >
         <label className="flex flex-col">
           <input
