@@ -1,3 +1,4 @@
+import { Image } from "antd";
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 
@@ -80,12 +81,12 @@ const Modal = ({ project, onClose }) => {
             )}
           </div>
         </div>
-        <div className="image-container relative hidden h-4/6 w-full overflow-scroll md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
-          <img
+        <div className="image-container hidden h-4/6 w-full overflow-scroll md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
+          <Image
+            width={"100%"}
             src={project.image}
-            alt={`Projet ` + project.id}
+            alt={`Projet ` + project.id + " " + project.heading}
             loading="lazy"
-            className="absolute left-0 top-0 w-full"
           />
         </div>
       </div>
