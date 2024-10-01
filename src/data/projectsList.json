@@ -2,7 +2,6 @@
   {
     "id": 2,
     "heading": "Premiers pas sur le langage HTML",
-    "preview": "/images/projects/riding-cities/riding-cities-preview.png",
     "image": "/images/projects/riding-cities/riding-cities.webp",
     "content": "Ce projet consistait à mettre à jour la page web d’une association en HTML. J’ai ajouté une nouvelle section en suivant des maquettes Figma, intégré un titre et deux boutons de téléchargement de plannings. Bien que les styles CSS aient été prédéfinis, j’ai appris à les adapter aux nouveaux éléments.",
     "githubLink": "https://github.com/DyBryck/Projet-02-Riding-Citites",
@@ -11,7 +10,7 @@
   {
     "id": 3,
     "heading": "Page d'accueil d'une agence de voyage",
-    "image": "/images/projects/booki.webp",
+    "image": "/images/projects/booki/booki.webp",
     "content": "Dans ce projet, j’ai créé la page d’accueil d’une agence de voyage en HTML et CSS, en concevant une interface responsive pour mobile, tablette et desktop. En suivant les maquettes Figma et les instructions fournies, j’ai conçu et codé des composants d’interface pour reproduire fidèlement le design.",
     "githubLink": "https://github.com/DyBryck/Projet-03-Booki",
     "tags": ["HTML", "CSS"]
@@ -19,7 +18,7 @@
   {
     "id": 4,
     "heading": "Amélioration de l'interface d'un site mobile avec des animations CSS",
-    "image": "/images/projects/ohmyfood.webp",
+    "image": "/images/projects/ohmyfood/ohmyfood.webp",
     "content": "Ici, j’ai développé l’interface mobile-first d’un site pour une start-up, en intégrant les maquettes mobile et desktop. J’ai utilisé Sass pour le CSS et ajouté des animations pour l’interactivité. Le projet a été géré avec Git et GitHub, avec les maquettes et contenus fournis pour garantir la qualité.",
     "link": "https://github.com/DyBryck/Projet-04-Ohmyfood",
     "tags": ["HTML", "CSS", "SASS"]
@@ -27,7 +26,7 @@
   {
     "id": 5,
     "heading": "Premiers pas sur le langage JavaScript",
-    "image": "/images/projects/print-it.webp",
+    "image": "/images/projects/print-it/print-it.webp",
     "content": "J’ai utilisé JavaScript pour ajouter un carrousel d’images interactif à un site statique d’imprimerie. J’ai mis à jour le code HTML et intégré des fonctionnalités dynamiques, en apprenant comment JavaScript interagit avec HTML et CSS. J’ai utilisé Visual Studio Code pour le développement et GitHub pour la gestion du code et la collaboration.",
     "link": "https://github.com/DyBryck/Projet-05-Print-It",
     "tags": ["HTML", "JavaScript"]
@@ -35,7 +34,7 @@
   {
     "id": 6,
     "heading": "Création d'une page web dynamique",
-    "image": "/images/projects/sophie-bluel.webp",
+    "image": "/images/projects/sophie-bluel/sophie-bluel.webp",
     "content": "J’ai créé une page web dynamique pour une architecte d’intérieur avec JavaScript et une API. J’ai manipulé le DOM, géré les événements, et ajouté une page de connexion administrateur ainsi qu’une modale pour l’upload de médias. Le projet a impliqué le développement de fonctionnalités from scratch et l’interaction avec un back-end.",
     "link": "https://github.com/DyBryck/Projet-06-Sophie-Bluel",
     "tags": ["HTML", "CSS", "JavaScript"]
@@ -43,7 +42,7 @@
   {
     "id": 7,
     "heading": "Premiers pas sur React avec React Router",
-    "image": "/images/projects/kasa.webp",
+    "image": "/images/projects/kasa/kasa.webp",
     "content": "J’ai développé le front-end d’une application avec React et React Router pour une expérience utilisateur fluide. J’ai créé des composants React, configuré la navigation avec React Router, et utilisé des maquettes et des données JSON simulées. Avec Create React App pour démarrer et Node.js pour exécuter le code, j’ai structuré efficacement le projet et géré le routage.",
     "link": "https://github.com/DyBryck/Projet-07-Kasa",
     "tags": ["React"]
@@ -51,7 +50,7 @@
   {
     "id": 8,
     "heading": "Optimisation du référencement et des performances d’un site web",
-    "image": "/images/projects/nina-carducci.webp",
+    "image": "/images/projects/nina-carducci/nina-carducci.webp",
     "content": "Dans ce projet, j’ai optimisé le référencement, la performance et l’accessibilité d’un site web. J’ai utilisé Lighthouse et Wave pour identifier les problèmes, proposé des recommandations, et modifié le code pour améliorer la vitesse et le référencement. J’ai créé un rapport comparatif avec des captures d’écran des audits, montrant l’impact des optimisations sur la performance et l’accessibilité.",
     "link": "https://github.com/DyBryck/Projet-08-Nina-Carducci",
     "tags": ["HTML"]
@@ -59,7 +58,7 @@
   {
     "id": 9,
     "heading": "Débogage et finalisation d’un site one-page",
-    "image": "/images/projects/724-events.webp",
+    "image": "/images/projects/724-events/724-events.webp",
     "content": "Dans ce projet, j’ai travaillé sur le débogage et la finalisation du développement d’un site one-page. Mon premier objectif a été d’examiner le code existant et d’identifier les bugs à l’aide des Chrome DevTools et des React Developer Tools. Après avoir repéré les problèmes, j’ai résolu les bugs en utilisant mes compétences en JavaScript et React. J’ai également complété le cahier de recette, en détaillant les scénarios de test pour vérifier le bon fonctionnement du site via des tests unitaires et fonctionnels.",
     "link": "https://github.com/DyBryck/Projet-09-724events",
     "tags": ["React"]
@@ -67,7 +66,7 @@
   {
     "id": 10,
     "heading": "Développement front-end d’une application",
-    "image": "/images/projects/argent-bank.webp",
+    "image": "/images/projects/argent-bank/argent-bank.webp",
     "content": "J’ai développé le front-end d’une application bancaire avec React et Redux pour une expérience utilisateur dynamique. J’ai intégré le front-end au back-end via des appels API REST, créé un tableau de bord utilisateur responsive, et utilisé Redux pour la gestion de l’état global. Swagger a servi à définir les points d’accès de l’API, et Node.js a été utilisé pour le code côté serveur, offrant une gestion full-stack de l’application.",
     "link": "https://github.com/DyBryck/Projet-10-ArgentBank",
     "tags": ["React", "Redux"]
@@ -75,14 +74,14 @@
   {
     "id": 11,
     "heading": "Planification du développement d’un site web",
-    "image": "/images/projects/menumaker-original.webp",
+    "image": "/images/projects/menumaker/menu-maker.webp",
     "content": "J’ai planifié le développement d’un site web sans coder directement. J’ai utilisé les maquettes, spécifications fonctionnelles et User Stories pour rédiger les spécifications techniques, identifier les besoins fonctionnels et décomposer les tâches. J’ai effectué une veille technologique, utilisé Notion pour créer un tableau Kanban de gestion de projet, et présenté la solution technique retenue.",
     "tags": ["Gestion de projet"]
   },
   {
     "id": 12,
     "heading": "Création et publication de mon portfolio",
-    "image": "/images/projects/portfolio-original.png",
+    "image": "/images/projects/portfolio/portfolio.webp",
     "content": "J’ai développé et publié mon propre portfolio de développeur en ligne, présentant mes compétences, mon parcours et mes projets. J’ai veillé à ce que le design soit responsive, garantissant une compatibilité optimale sur tous les appareils. De plus, j’ai débogué et optimisé le site pour améliorer les performances et le référencement SEO, assurant ainsi une bonne visibilité sur les moteurs de recherche.",
     "tags": ["React", "JavaScript", "CSS"]
   }

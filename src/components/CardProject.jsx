@@ -81,7 +81,7 @@ const Modal = ({ project, onClose }) => {
             )}
           </div>
         </div>
-        <div className="image-container hidden h-4/6 w-full overflow-scroll md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
+        <div className="image-container hidden h-4/6 w-full overflow-hidden md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
           <Image
             width={"100%"}
             src={project.image}
@@ -117,11 +117,13 @@ const CardProject = ({ project }) => {
         onClick={handleOpenModal}
       >
         <div className="card-project-image h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
-          <img
-            src={project.preview}
+          <Image
+            preview={false}
+            width={"100%"}
+            src={project.image}
             alt={`Projet ` + project.id}
             loading="lazy"
-            className="h-full w-full object-cover object-top transition-all duration-500 group-hover:scale-105"
+            className="object-cover object-top transition-all duration-500 group-hover:scale-105"
           />
         </div>
         <div className="flex flex-col items-center justify-between p-4">
