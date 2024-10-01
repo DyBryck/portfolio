@@ -47,7 +47,7 @@ const CardForm = () => {
             onChange={(e) => setName(e.target.value)}
             required
             placeholder="Votre nom"
-            className="rounded-lg p-1"
+            className="rounded-lg p-1 dark:bg-black/40"
           />
         </label>
         <label className="flex flex-col">
@@ -57,7 +57,7 @@ const CardForm = () => {
             onChange={(e) => setEmail(e.target.value)}
             required
             placeholder="Votre email"
-            className="rounded-lg p-1"
+            className="rounded-lg p-1 dark:bg-black/40"
           />
         </label>
         <label className="flex flex-col">
@@ -66,7 +66,7 @@ const CardForm = () => {
             onChange={(e) => setMessage(e.target.value)}
             required
             placeholder="Message"
-            className="h-56 resize-none rounded-lg p-1"
+            className="h-56 resize-none rounded-lg p-1 dark:bg-black/40"
           ></textarea>
         </label>
         <button

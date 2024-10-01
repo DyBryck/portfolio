@@ -14,8 +14,8 @@ const CardCV = () => {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width="65"
+          height="65"
           viewBox="0 0 442.04 442.04"
           xmlSpace="preserve"
         >
@@ -39,8 +39,8 @@ const CardCV = () => {
         download
       >
         <svg
-          width="80"
-          height="80"
+          width="65"
+          height="65"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
