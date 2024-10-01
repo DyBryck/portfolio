@@ -1,4 +1,3 @@
-import backgroundVideo from "./assets/video/background/background.webm";
 import {
   ButtonToTop,
   CardCV,
@@ -17,15 +16,6 @@ import sections from "./data/sections.json";
 const App = () => {
   return (
     <>
-      <video
-        preload=""
-        loop
-        autoPlay
-        muted
-        className="fixed left-0 top-0 h-full w-full object-cover"
-      >
-        <source src={backgroundVideo} type="video/webm" />
-      </video>
       <ButtonToTop />
       <div className="mb-16 mt-4 flex items-center justify-center rounded-lg bg-white/20 p-8 text-center shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 dark:bg-black/20">
         <h1 className="rounded-lg text-3xl font-bold uppercase md:text-5xl">

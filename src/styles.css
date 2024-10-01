@@ -564,6 +564,29 @@ video {
   --tw-contain-style:  ;
 }
 
+/*
+  .light-bg {
+    background-image: linear-gradient(129deg, #ffddc1, #f5f5f5, #2e8bc0);
+    background-size: 180% 180%;
+    background-position: 0% 0%;
+    animation: gradient-animation 27s ease infinite;
+  }
+    */
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -712,8 +735,12 @@ video {
   height: 100%;
 }
 
-.max-h-\[600px\] {
-  max-height: 600px;
+.h-screen {
+  height: 100vh;
+}
+
+.max-h-\[550px\] {
+  max-height: 550px;
 }
 
 .w-1\/2 {
@@ -837,22 +864,6 @@ video {
 
 .bg-white\/70 {
   background-color: rgb(255 255 255 / 0.7);
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-cover {
@@ -989,24 +1000,16 @@ html,
 body,
 #root {
   font-family: "SF Pro Display";
-  height: auto;
 }
 
-/*
-.image-container .ant-image {
-  overflow: scroll;
-  position: relative;
-  width: 100%;
-  height: 100%;
+@media (prefers-color-scheme: dark) {
+  .dark\:dark-bg {
+    background: linear-gradient(129deg, #ff6f61, #1a1a1d, #2e8bc0);
+    background-size: 180% 180%;
+    background-position: 0% 0%;
+    animation: gradient-animation 27s ease infinite;
+  }
 }
-
-.image-container .ant-image-img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-*/
 
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;

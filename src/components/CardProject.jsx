@@ -42,7 +42,7 @@ const Modal = ({ project, onClose }) => {
       onClick={handleClickOutside}
     >
       <div
-        className={`relative flex h-full max-h-[600px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-white/70 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-7xl lg:flex-row lg:p-9 dark:bg-black/70 ${
+        className={`relative flex h-full max-h-[550px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-white/70 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-7xl lg:flex-row lg:p-9 dark:bg-black/70 ${
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >
