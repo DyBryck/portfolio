@@ -1,7 +1,4 @@
-import React from "react";
-import projectsList from "./assets/data/projectsList.json";
-import sections from "./assets/data/sections.json";
-import Background from "./components/Background";
+import background from "../public/images/background/background.webm";
 import ButtonToTop from "./components/ButtonToTop";
 import {
   CardCV,
@@ -14,11 +11,15 @@ import {
   CardSection,
   CardSkills,
 } from "./components/Components";
+import projectsList from "./data/projectsList.json";
+import sections from "./data/sections.json";
 
 const App = () => {
   return (
     <>
-      <Background />
+      <video className="fixed left-0 top-0 min-h-full min-w-full object-cover">
+        <source src={background} type="video/webm" />
+      </video>
       <ButtonToTop />
       <div className="mb-16 mt-4 flex items-center justify-center rounded-lg bg-white/20 p-8 text-center shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 dark:bg-black/20">
         <h1 className="rounded-lg text-3xl font-bold uppercase md:text-5xl">
@@ -37,6 +38,7 @@ const App = () => {
         <CardDunkirk />
         <CardCV />
         <CardSkills />
+        <CardForm />
         <CardSection
           title={sections[1].heading}
           image={sections[1].image}
@@ -44,11 +46,8 @@ const App = () => {
         />
 
         {projectsList.map((project) => (
-          <React.Fragment key={project.id}>
-            <CardProject project={project} />
-          </React.Fragment>
+          <CardProject key={project.id} project={project} />
         ))}
-        <CardForm />
       </div>
     </>
   );

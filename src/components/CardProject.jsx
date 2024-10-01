@@ -75,23 +75,17 @@ const Modal = ({ project, onClose }) => {
                 target="_blank"
                 className="underline"
               >
-                Voir le site
-              </a>
-            )}
-            <br />
-            {project.pageLink && (
-              <a href={project.pageLink} target="_blank" className="underline">
-                Voir le code
+                Voir sur GitHub
               </a>
             )}
           </div>
         </div>
-        <div className="relative hidden h-4/6 w-full overflow-scroll md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
+        <div className="image-container relative hidden h-4/6 w-full overflow-scroll md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
           <img
             src={project.image}
             alt={`Projet ` + project.id}
             loading="lazy"
-            className="absolute left-0 top-0 object-cover"
+            className="absolute left-0 top-0 w-full"
           />
         </div>
       </div>
@@ -121,12 +115,12 @@ const CardProject = ({ project }) => {
         className="group col-span-6 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:opacity-100 md:opacity-80 lg:col-span-3 dark:bg-black/20"
         onClick={handleOpenModal}
       >
-        <div className="h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
+        <div className="card-project-image h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
           <img
             src={project.preview}
             alt={`Projet ` + project.id}
             loading="lazy"
-            className="mb-4 min-h-full w-full object-cover object-top transition-all duration-500 group-hover:scale-105"
+            className="h-full w-full object-cover object-top transition-all duration-500 group-hover:scale-105"
           />
         </div>
         <div className="flex flex-col items-center justify-between p-4">
