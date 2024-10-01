@@ -42,7 +42,8 @@ const CardForm = () => {
       >
         <label className="flex flex-col">
           <input
-            type="text"
+            type="name"
+            autoComplete="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
