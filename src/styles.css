@@ -564,14 +564,12 @@ video {
   --tw-contain-style:  ;
 }
 
-/*
-  .light-bg {
-    background-image: linear-gradient(129deg, #ffddc1, #f5f5f5, #2e8bc0);
-    background-size: 180% 180%;
-    background-position: 0% 0%;
-    animation: gradient-animation 27s ease infinite;
-  }
-    */
+.light-bg {
+  background-image: linear-gradient(129deg, #ffddc1, #f5f5f5, #2e8bc0);
+  background-size: 180% 180%;
+  background-position: 0% 0%;
+  animation: gradient-animation 27s ease infinite;
+}
 
 @keyframes gradient-animation {
   0% {
