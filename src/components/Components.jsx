@@ -1,3 +1,4 @@
+import ButtonToTop from "./ButtonToTop";
 import CardCV from "./CardCV";
 import CardDunkirk from "./CardDunkirk";
 import CardForm from "./CardForm";
@@ -9,6 +10,7 @@ import CardSection from "./CardSection";
 import CardSkills from "./CardSkills";
 
 export {
+  ButtonToTop,
   CardCV,
   CardDunkirk,
   CardForm,
