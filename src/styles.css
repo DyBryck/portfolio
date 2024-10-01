@@ -582,16 +582,6 @@ video {
   }
 }
 
-.scrollbar-none {
-  scrollbar-width: none;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-.scrollbar-none::-webkit-scrollbar {
-  display: none;
-}
-
 .pointer-events-none {
   pointer-events: none;
 }

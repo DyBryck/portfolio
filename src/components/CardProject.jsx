@@ -66,7 +66,7 @@ const Modal = ({ project, onClose }) => {
             />
           </svg>
         </button>
-        <div className="scrollbar-none flex h-full w-full flex-col justify-center overflow-scroll p-4 md:h-1/2 lg:h-full lg:w-2/6 lg:p-0 lg:pr-6 xl:pr-12">
+        <div className="flex h-full w-full flex-col justify-center p-4 md:h-1/2 lg:h-full lg:w-2/6 lg:p-0 lg:pr-6 xl:pr-12">
           <h4 className="mb-4 text-2xl font-bold">{project.heading}</h4>
           <p className="mb-4 xl:leading-8">{project.content}</p>
           <div className="inline text-right">

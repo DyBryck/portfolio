@@ -29,15 +29,6 @@
       background-position: 0% 50%;
     }
   }
-
-  .scrollbar-none {
-    scrollbar-width: none;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  .scrollbar-none::-webkit-scrollbar {
-    display: none;
-  }
 }
 
 html,
