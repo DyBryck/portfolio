@@ -4,6 +4,7 @@ const CardGitHub = () => {
       <a
         href="https://github.com/DyBryck"
         target="_blank"
+        rel="noreferrer noopener"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
       >
         <svg viewBox="0 0 128 128" width="80" height="80" fill="currentColor">
