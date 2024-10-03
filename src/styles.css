@@ -827,9 +827,9 @@ video {
   border-top-right-radius: 0.5rem;
 }
 
-.bg-\[\#efe8d6\] {
+.bg-\[\#e5e1d5\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 232 214 / var(--tw-bg-opacity));
+  background-color: rgb(229 225 213 / var(--tw-bg-opacity));
 }
 
 .bg-black\/0 {
@@ -846,14 +846,6 @@ video {
 
 .bg-white\/70 {
   background-color: rgb(255 255 255 / 0.7);
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-top {
-  background-position: top;
 }
 
 .bg-center {
@@ -1013,13 +1005,6 @@ body,
   }
 }
 
-@media (min-width: 1280px) {
-  .xl\:light-bg-xl {
-    background-image: url("/images/background/light-xl.webp");
-    background-position: top;
-  }
-}
-
 @media (min-width: 1536px) {
   .\32xl\:light-bg-xl {
     background-image: url("/images/background/light-xl.webp");
@@ -1038,15 +1023,6 @@ body,
     .sm\:dark\:dark-bg-sm {
       background-image: url("/images/background/dark-sm.webp");
       background-size: inherit;
-    }
-  }
-}
-
-@media (min-width: 1280px) {
-  @media (prefers-color-scheme: dark) {
-    .xl\:dark\:dark-bg-xl {
-      background-image: url("/images/background/dark-xl.webp");
-      background-position: top;
     }
   }
 }
@@ -1097,10 +1073,6 @@ body,
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:bg-center {
-    background-position: center;
   }
 
   .sm\:text-3xl {
@@ -1322,14 +1294,6 @@ body,
     width: 4rem;
   }
 
-  .xl\:bg-top {
-    background-position: top;
-  }
-
-  .xl\:bg-center {
-    background-position: center;
-  }
-
   .xl\:pr-12 {
     padding-right: 3rem;
   }
@@ -1346,9 +1310,9 @@ body,
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:bg-\[\#1b263e\] {
+  .dark\:bg-\[\#415068\] {
     --tw-bg-opacity: 1;
-    background-color: rgb(27 38 62 / var(--tw-bg-opacity));
+    background-color: rgb(65 80 104 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-black\/20 {
