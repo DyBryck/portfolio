@@ -8,7 +8,7 @@ const CardCV = () => {
       </h3>
       <h3 className="text-center text-2xl font-bold sm:hidden">CV</h3>
       <a
-        href="https://drive.google.com/file/d/1_g5byGTVfCiA53XMh78zs2l-gbRmXrVc/view?usp=sharing"
+        href="https://drive.google.com/file/d/1TuGeutWeh6DARmQoCZLPaRwl-ilOfBBV/view?usp=share_link"
         target="_blank"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
       >
