@@ -11,7 +11,7 @@
     "id": 3,
     "heading": "Page d'accueil d'une agence de voyage",
     "image": "/images/projects/booki/booki.webp",
-    "content": "Dans ce projet, j’ai créé la page d’accueil d’une agence de voyage en HTML et CSS, en concevant une interface responsive pour mobile, tablette et desktop. En suivant les maquettes Figma et les instructions fournies, j’ai conçu et codé des composants d’interface pour reproduire fidèlement le design.",
+    "content": "J’ai créé la page d’accueil d’une agence de voyage en HTML et CSS, en concevant une interface responsive pour mobile, tablette et desktop. En suivant les maquettes Figma et les instructions fournies, j’ai conçu et codé des composants d’interface pour reproduire fidèlement le design.",
     "githubLink": "https://github.com/DyBryck/Projet-03-Booki",
     "tags": ["HTML", "CSS"]
   },
@@ -19,7 +19,7 @@
     "id": 4,
     "heading": "Amélioration de l'interface d'un site mobile avec des animations CSS",
     "image": "/images/projects/ohmyfood/ohmyfood.webp",
-    "content": "Ici, j’ai développé l’interface mobile-first d’un site pour une start-up, en intégrant les maquettes mobile et desktop. J’ai utilisé Sass pour le CSS et ajouté des animations pour l’interactivité. Le projet a été géré avec Git et GitHub, avec les maquettes et contenus fournis pour garantir la qualité.",
+    "content": "J’ai développé l’interface mobile-first d’un site pour une start-up, en intégrant les maquettes mobile et desktop. J’ai utilisé Sass pour le CSS et ajouté des animations pour l’interactivité. Le projet a été géré avec Git et GitHub, avec les maquettes et contenus fournis pour garantir la qualité.",
     "githubLink": "https://github.com/DyBryck/Projet-04-Ohmyfood",
     "tags": ["HTML", "CSS", "SASS"]
   },
@@ -51,7 +51,7 @@
     "id": 8,
     "heading": "Optimisation du référencement et des performances d’un site web",
     "image": "/images/projects/nina-carducci/nina-carducci.webp",
-    "content": "Dans ce projet, j’ai optimisé le référencement, la performance et l’accessibilité d’un site web. J’ai utilisé Lighthouse et Wave pour identifier les problèmes, proposé des recommandations, et modifié le code pour améliorer la vitesse et le référencement. J’ai créé un rapport comparatif avec des captures d’écran des audits, montrant l’impact des optimisations sur la performance et l’accessibilité.",
+    "content": "J’ai optimisé le référencement, la performance et l’accessibilité d’un site web. J’ai utilisé Lighthouse et Wave pour identifier les problèmes, proposé des recommandations, et modifié le code pour améliorer la vitesse et le référencement. J’ai créé un rapport comparatif avec des captures d’écran des audits, montrant l’impact des optimisations sur la performance et l’accessibilité.",
     "githubLink": "https://github.com/DyBryck/Projet-08-Nina-Carducci",
     "tags": ["HTML"]
   },
@@ -59,7 +59,7 @@
     "id": 9,
     "heading": "Débogage et finalisation d’un site one-page",
     "image": "/images/projects/724-events/724-events.webp",
-    "content": "Dans ce projet, j’ai travaillé sur le débogage et la finalisation du développement d’un site one-page. Mon premier objectif a été d’examiner le code existant et d’identifier les bugs à l’aide des Chrome DevTools et des React Developer Tools. Après avoir repéré les problèmes, j’ai résolu les bugs en utilisant mes compétences en JavaScript et React. J’ai également complété le cahier de recette, en détaillant les scénarios de test pour vérifier le bon fonctionnement du site via des tests unitaires et fonctionnels.",
+    "content": "J’ai travaillé sur le débogage et la finalisation du développement d’un site one-page. Mon premier objectif a été d’examiner le code existant et d’identifier les bugs à l’aide des Chrome DevTools et des React Developer Tools. Après avoir repéré les problèmes, j’ai résolu les bugs en utilisant mes compétences en JavaScript et React. J’ai également complété le cahier de recette, en détaillant les scénarios de test pour vérifier le bon fonctionnement du site via des tests unitaires et fonctionnels.",
     "githubLink": "https://github.com/DyBryck/Projet-09-724events",
     "tags": ["React"]
   },
@@ -75,7 +75,7 @@
     "id": 11,
     "heading": "Planification du développement d’un site web",
     "image": "/images/projects/menu-maker/menu-maker.webp",
-    "content": "J’ai planifié le développement d’un site web sans coder directement. J’ai utilisé les maquettes, spécifications fonctionnelles et User Stories pour rédiger les spécifications techniques, identifier les besoins fonctionnels et décomposer les tâches. J’ai effectué une veille technologique, utilisé Notion pour créer un tableau Kanban de gestion de projet, et présenté la solution technique retenue.",
+    "content": "J’ai planifié le développement d’un site web. J’ai utilisé les maquettes, spécifications fonctionnelles et User Stories pour rédiger les spécifications techniques, identifier les besoins fonctionnels et décomposer les tâches. J’ai effectué une veille technologique, utilisé Notion pour créer un tableau Kanban de gestion de projet, et présenté la solution technique retenue.",
     "tags": ["Gestion de projet"]
   },
   {
