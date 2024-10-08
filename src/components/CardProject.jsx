@@ -74,7 +74,7 @@ const Modal = ({ project, onClose }) => {
               <a
                 href={project.githubLink}
                 target="_blank"
-                className="underline"
+                className="underline opacity-60 transition-opacity duration-300 hover:opacity-100"
               >
                 Voir sur GitHub
               </a>
