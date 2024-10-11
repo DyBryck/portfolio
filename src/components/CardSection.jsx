@@ -6,7 +6,7 @@ const CardSection = ({ title, image, content }) => {
       <h2 className="mb-4 text-center text-2xl font-bold sm:text-4xl">
         {title}
       </h2>
-      <div className="mb-4 flex h-28 w-28 items-center justify-center overflow-hidden rounded-full bg-white/30 transition-all duration-500 group-hover:scale-110 dark:bg-black/30">
+      <div className="mb-4 flex h-28 w-28 items-center justify-center overflow-hidden rounded-full bg-white/30 shadow-inner transition-all duration-500 group-hover:scale-110 dark:bg-black/30">
         <img src={image} alt="Memoji" className="h-28 object-cover" />
       </div>
       <p className="leading-7 sm:text-xl">{content}</p>

@@ -21,7 +21,7 @@
     "image": "/images/projects/ohmyfood/ohmyfood.webp",
     "content": "J’ai développé l’interface mobile-first d’un site pour une start-up, en intégrant les maquettes mobile et desktop. J’ai utilisé Sass pour le CSS et ajouté des animations pour l’interactivité. Le projet a été géré avec Git et GitHub, avec les maquettes et contenus fournis pour garantir la qualité.",
     "githubLink": "https://github.com/DyBryck/Projet-04-Ohmyfood",
-    "tags": ["HTML", "CSS", "SASS"]
+    "tags": ["HTML", "SASS"]
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "image": "/images/projects/kasa/kasa.webp",
     "content": "J’ai développé le front-end d’une application avec React et React Router pour une expérience utilisateur fluide. J’ai créé des composants React, configuré la navigation avec React Router, et utilisé des maquettes et des données JSON simulées. Avec Create React App pour démarrer et Node.js pour exécuter le code, j’ai structuré efficacement le projet et géré le routage.",
     "githubLink": "https://github.com/DyBryck/Projet-07-Kasa",
-    "tags": ["React"]
+    "tags": ["React", "SASS"]
   },
   {
     "id": 8,
