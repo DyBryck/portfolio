@@ -9,6 +9,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .light-bg {
+    background-image: url("/images/background/light.webp");
+  }
+  .dark-bg {
+    background-image: url("/images/background/dark.webp");
+  }
+  .light-bg-sm {
+    background-image: url("/images/background/light-sm.webp");
+    background-size: inherit;
+  }
+  .dark-bg-sm {
+    background-image: url("/images/background/dark-sm.webp");
+    background-size: inherit;
+  }
+  .light-bg-xl {
+    background-image: url("/images/background/light-xl.webp");
+    background-position: top;
+  }
+  .dark-bg-xl {
+    background-image: url("/images/background/dark-xl.webp");
+    background-position: top;
+  }
+}
+
 html {
   font-family: "SF Pro Display";
 }
