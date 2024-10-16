@@ -564,10 +564,6 @@ video {
   display: none;
 }
 
-.light-bg {
-  background-image: url("/images/background/light.webp");
-}
-
 .pointer-events-none {
   pointer-events: none;
 }
@@ -716,10 +712,6 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .max-h-\[550px\] {
   max-height: 550px;
 }
@@ -827,13 +819,13 @@ video {
   border-top-right-radius: 0.5rem;
 }
 
-.bg-\[\#e5e1d5\] {
+.bg-\[\#F5F5F5\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 225 213 / var(--tw-bg-opacity));
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
-.bg-black\/0 {
-  background-color: rgb(0 0 0 / 0);
+.bg-black\/20 {
+  background-color: rgb(0 0 0 / 0.2);
 }
 
 .bg-white\/20 {
@@ -848,16 +840,13 @@ video {
   background-color: rgb(255 255 255 / 0.7);
 }
 
-.bg-black\/10 {
-  background-color: rgb(0 0 0 / 0.1);
+.bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
 }
 
-.bg-black\/20 {
-  background-color: rgb(0 0 0 / 0.2);
-}
-
-.bg-center {
-  background-position: center;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1016,48 +1005,8 @@ video {
   transition-duration: 500ms;
 }
 
-html,
-body,
-#root {
+html {
   font-family: "SF Pro Display";
-}
-
-@media (min-width: 640px) {
-  .sm\:light-bg-sm {
-    background-image: url("/images/background/light-sm.webp");
-    background-size: inherit;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:light-bg-xl {
-    background-image: url("/images/background/light-xl.webp");
-    background-position: top;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:dark-bg {
-    background-image: url("/images/background/dark.webp");
-  }
-}
-
-@media (min-width: 640px) {
-  @media (prefers-color-scheme: dark) {
-    .sm\:dark\:dark-bg-sm {
-      background-image: url("/images/background/dark-sm.webp");
-      background-size: inherit;
-    }
-  }
-}
-
-@media (min-width: 1536px) {
-  @media (prefers-color-scheme: dark) {
-    .\32xl\:dark\:dark-bg-xl {
-      background-image: url("/images/background/dark-xl.webp");
-      background-position: top;
-    }
-  }
 }
 
 .hover\:scale-105:hover {
@@ -1328,12 +1277,6 @@ body,
 
   .xl\:leading-8 {
     line-height: 2rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:bg-top {
-    background-position: top;
   }
 }
 

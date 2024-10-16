@@ -72,7 +72,7 @@ const CardForm = () => {
         </label>
         <button
           type="submit"
-          className="h-10 w-1/2 self-center rounded-lg bg-white/30 transition-all duration-150 active:scale-90 dark:bg-black/30"
+          className="h-10 w-1/2 self-center rounded-lg bg-white transition-all duration-150 active:scale-90 dark:bg-black/30"
           disabled={isLoading}
         >
           Envoyer
