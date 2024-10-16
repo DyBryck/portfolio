@@ -849,6 +849,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-white\/80 {
+  background-color: rgb(255 255 255 / 0.8);
+}
+
+.bg-white\/90 {
+  background-color: rgb(255 255 255 / 0.9);
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1300,6 +1308,26 @@ html {
 
   .dark\:bg-black\/70 {
     background-color: rgb(0 0 0 / 0.7);
+  }
+
+  .dark\:bg-inherit {
+    background-color: inherit;
+  }
+
+  .dark\:bg-black\/80 {
+    background-color: rgb(0 0 0 / 0.8);
+  }
+
+  .dark\:bg-\[\#415068\]\/80 {
+    background-color: rgb(65 80 104 / 0.8);
+  }
+
+  .dark\:bg-\[\#415068\]\/70 {
+    background-color: rgb(65 80 104 / 0.7);
+  }
+
+  .dark\:bg-\[\#415068\]\/90 {
+    background-color: rgb(65 80 104 / 0.9);
   }
 
   .dark\:text-slate-50 {

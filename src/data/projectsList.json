@@ -5,7 +5,7 @@
     "image": "/images/projects/sophie-bluel/sophie-bluel.webp",
     "content": "J’ai créé une page web dynamique pour une architecte d’intérieur avec JavaScript et une API. J’ai manipulé le DOM, géré les événements, et ajouté une page de connexion administrateur ainsi qu’une modale pour l’upload de médias. Le projet a impliqué le développement de fonctionnalités from scratch et l’interaction avec un back-end.",
     "githubLink": "https://github.com/DyBryck/Projet-06-Sophie-Bluel",
-    "tags": ["HTML", "CSS", "JavaScript"]
+    "tags": ["JavaScript"]
   },
   {
     "id": 7,
@@ -13,7 +13,7 @@
     "image": "/images/projects/kasa/kasa.webp",
     "content": "J’ai développé le front-end d’une application avec React et React Router pour une expérience utilisateur fluide. J’ai créé des composants React, configuré la navigation avec React Router, et utilisé des maquettes et des données JSON simulées. Avec Create React App pour démarrer et Node.js pour exécuter le code, j’ai structuré efficacement le projet et géré le routage.",
     "githubLink": "https://github.com/DyBryck/Projet-07-Kasa",
-    "tags": ["React", "SASS"]
+    "tags": ["React"]
   },
   {
     "id": 8,
