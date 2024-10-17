@@ -34,7 +34,7 @@ const CardCV = () => {
         </svg>
       </a>
       <a
-        href="./src/assets/data/CV.pdf"
+        href="./CV.pdf"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
         download
       >
