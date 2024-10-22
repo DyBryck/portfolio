@@ -2,7 +2,7 @@ import { Image } from "antd";
 
 const CardLille = () => {
   return (
-    <div className="col-span-6 row-span-2 overflow-hidden rounded-lg shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-2 md:row-span-3 lg:col-span-3 lg:row-span-2 xl:col-span-2 xl:row-span-2">
+    <div className="col-span-8 row-span-2 overflow-hidden rounded-lg shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-4 md:row-span-3 lg:row-span-2 xl:col-span-3 xl:row-span-2">
       <Image
         width={"100%"}
         height={"100%"}

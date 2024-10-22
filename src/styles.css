@@ -632,6 +632,18 @@ video {
   grid-column: span 6 / span 6;
 }
 
+.col-span-7 {
+  grid-column: span 7 / span 7;
+}
+
+.col-span-8 {
+  grid-column: span 8 / span 8;
+}
+
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
 .row-span-1 {
   grid-row: span 1 / span 1;
 }
@@ -776,6 +788,14 @@ video {
 
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-cols-8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1206,6 +1226,10 @@ html {
     grid-column: span 3 / span 3;
   }
 
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
   .lg\:row-span-1 {
     grid-row: span 1 / span 1;
   }
@@ -1258,6 +1282,10 @@ html {
     flex-direction: row;
   }
 
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
   .lg\:p-0 {
     padding: 0px;
   }
@@ -1282,6 +1310,10 @@ html {
 
   .xl\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .xl\:col-span-4 {
+    grid-column: span 4 / span 4;
   }
 
   .xl\:row-span-1 {
@@ -1310,6 +1342,10 @@ html {
 
   .xl\:w-16 {
     width: 4rem;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
   }
 
   .xl\:pr-12 {

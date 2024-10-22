@@ -22,7 +22,7 @@ const App = () => {
           Dylan Bryckaert
         </h1>
       </div>
-      <div className="grid max-w-7xl grid-flow-row auto-rows-[150px] grid-cols-6 gap-4 md:gap-8">
+      <div className="grid max-w-7xl grid-flow-row auto-rows-[150px] grid-cols-8 gap-4 md:gap-8">
         <CardSection
           title={sections[0].heading}
           image={sections[0].image}
