@@ -23,6 +23,9 @@ const CardForm = () => {
       const data = await response.json();
       if (response.ok) {
         setStatus("Email envoyé avec succès", data);
+        setName("");
+        setEmail("");
+        setMessage("");
       } else {
         setStatus("Erreur lors de l'envoi de l'email");
       }
