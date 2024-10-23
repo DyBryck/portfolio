@@ -16,9 +16,11 @@ export default async function handler(req, res) {
       from: email,
       to: process.env.GMAIL_USER, // eslint-disable-line
       subject: "Message du portfolio",
-      text: `Nom: ${name}
+      text: `
+        Nom: ${name}
         Email: ${email}
-        Message: ${message}`,
+        Message: ${message}
+        `,
     };
 
     try {
