@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.portfolio.dylanbryckaert.fr/sitemap.xml
