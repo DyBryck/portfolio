@@ -81,8 +81,8 @@ const CardForm = () => {
           Envoyer
         </button>
       </form>
-      {isLoading && <p>Envoi en cours...</p>}
-      {status && <p>{status}</p>}
+      {isLoading ? <p>Envoi en cours...</p> : ""}
+      {status ? <p>{status}</p> : ""}
     </div>
   );
 };
