@@ -7,27 +7,33 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "dylan.bryckaert@gmail.com",
-        pass: "wfhb wtvg yujy wmjz",
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
       },
     });
 
     const mailOptions = {
       from: email,
-      to: "dylan.bryckaert@gmail.com",
+      to: process.env.GMAIL_USER,
       subject: "Message du portfolio",
-      text: `Nom: ${name}\nEmail: ${email}\nMessage: ${message}`,
+      text: `
+        Nom: ${name}
+        Email: ${email}
+        Message: ${message}
+      `,
     };
 
     try {
       await transporter.sendMail(mailOptions);
-      res.status(200).json({ message: "Email envoyé avec succès !" });
+      return res.status(200).json({ message: "Email envoyé avec succès !" });
     } catch (error) {
-      res
-        .status(500)
-        .json({ message: "Erreur lors de l'envoi de l'email.", error });
+      console.error("Erreur d'envoi d'email :", error);
+      return res.status(500).json({
+        message: "Erreur lors de l'envoi de l'email.",
+        error: error.message,
+      });
     }
-  } else {
-    res.status(405).json({ message: "Méthode non autorisée." });
   }
+
+  return res.status(405).json({ message: "Méthode non autorisée." });
 }
