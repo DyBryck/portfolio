@@ -879,6 +879,10 @@ video {
   background-color: rgb(255 255 255 / 0.6);
 }
 
+.bg-\[\#e1e7e7\]\/60 {
+  background-color: rgb(225 231 231 / 0.6);
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1362,6 +1366,18 @@ html {
 
   .dark\:bg-\[\#1a2237\]\/80 {
     background-color: rgb(26 34 55 / 0.8);
+  }
+
+  .dark\:bg-\[\#19263f\]\/80 {
+    background-color: rgb(25 38 63 / 0.8);
+  }
+
+  .dark\:bg-\[\#19263f\]\/70 {
+    background-color: rgb(25 38 63 / 0.7);
+  }
+
+  .dark\:bg-\[\#111a2a\]\/80 {
+    background-color: rgb(17 26 42 / 0.8);
   }
 
   .dark\:text-slate-50 {
