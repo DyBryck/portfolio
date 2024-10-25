@@ -22,7 +22,7 @@ const CardProject = ({ project }) => {
         <div className="card-project-image h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
           <img
             src={project.image}
-            alt={`Projet ` + project.id}
+            alt={`Projet ${project.id}`}
             loading="lazy"
             className="object-cover object-top transition-all duration-500 group-hover:scale-105"
           />
@@ -39,7 +39,11 @@ const CardProject = ({ project }) => {
         </div>
       </div>
 
-      {isModalOpen && <Modal project={project} onClose={handleCloseModal} />}
+      {isModalOpen ? (
+        <Modal project={project} onClose={handleCloseModal} />
+      ) : (
+        ""
+      )}
     </>
   );
 };
