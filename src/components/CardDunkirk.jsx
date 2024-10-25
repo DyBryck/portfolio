@@ -4,7 +4,7 @@ const CardDunkirk = () => {
       <img
         src={"./images/maps/dunkirk.webp"}
         alt="Carte de Dunkerque, lieu de résidence"
-        className="object-cover transition-all duration-500 hover:scale-110"
+        className="h-full object-cover transition-all duration-500 hover:scale-110"
         loading="lazy"
       />
     </div>
