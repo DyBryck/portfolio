@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="./images/icons/icon.ico" />
     <link rel="apple-touch-icon" href="./images/icons/apple-icon.ico" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- HTML Meta Tags -->
     <title>Dylan Bryckaert - Portfolio</title>
@@ -73,16 +75,12 @@
       }
     </script>
   </head>
-  <body class="font-sans text-lg text-slate-600 dark:text-slate-50">
-    <div class="fixed left-0 top-0 w-full">
-      <div
-        class="light-bg dark:dark-bg sm:dark:dark-bg-sm sm:light-bg-sm 2xl:light-bg-xl 2xl:dark:dark-bg-xl h-screen bg-center 2xl:bg-top"
-      ></div>
+  <body
+    class="bg-[#ede7d9] font-sans text-lg text-slate-600 dark:bg-[#1a2237] dark:text-slate-50"
+  >
+    <div class="light-bg dark:dark-bg h-dvh">
+      <div id="root" class="flex flex-col items-center p-8"></div>
     </div>
-    <div
-      id="root"
-      class="flex flex-col items-center bg-[#e5e1d5] p-8 dark:bg-[#415068]"
-    ></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

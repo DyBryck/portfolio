@@ -9,7 +9,7 @@ import {
   CardProject,
   CardSection,
   CardSkills,
-} from "./components/Components";
+} from "./components/index";
 import projectsList from "./data/projectsList.json";
 import sections from "./data/sections.json";
 

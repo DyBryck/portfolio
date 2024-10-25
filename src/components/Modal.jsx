@@ -37,11 +37,11 @@ const Modal = ({ project, onClose }) => {
   return (
     <div
       id="modal-background"
-      className={`fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center p-4 transition-all duration-500 md:p-8 ${isVisible ? "bg-black/20 backdrop-blur-xl" : ""}`}
+      className={`fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center p-4 transition-all duration-500 md:p-8 ${isVisible ? "backdrop-blur-xl" : ""}`}
       onClick={handleClickOutside}
     >
       <div
-        className={`relative flex h-full max-h-[550px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-white/90 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-7xl lg:flex-row lg:p-9 dark:bg-[#415068]/90 ${
+        className={`relative flex h-full max-h-[550px] w-full max-w-7xl transform flex-col items-center justify-center overflow-hidden rounded-lg bg-[#ede7d9]/70 shadow-xl backdrop-blur-xl transition-all duration-500 md:max-h-[650px] md:flex-col md:justify-between md:p-4 lg:max-w-7xl lg:flex-row lg:p-9 dark:bg-[#1a2237]/70 ${
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >

@@ -10,27 +10,37 @@
 @tailwind utilities;
 
 @layer components {
-  .light-bg {
-    background-image: url("/images/background/light.webp");
-  }
+  .light-bg,
   .dark-bg {
+    position: relative;
+  }
+
+  .light-bg::before {
+    content: "";
+    background-image: url("/images/background/light.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .dark-bg::before {
+    content: "";
     background-image: url("/images/background/dark.webp");
-  }
-  .light-bg-sm {
-    background-image: url("/images/background/light-sm.webp");
-    background-size: inherit;
-  }
-  .dark-bg-sm {
-    background-image: url("/images/background/dark-sm.webp");
-    background-size: inherit;
-  }
-  .light-bg-xl {
-    background-image: url("/images/background/light-xl.webp");
-    background-position: top;
-  }
-  .dark-bg-xl {
-    background-image: url("/images/background/dark-xl.webp");
-    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
   }
 }
 
