@@ -1,4 +1,3 @@
-import { Image } from "antd";
 import PropTypes from "prop-types";
 import { useState } from "react";
 import Modal from "./Modal";
@@ -21,9 +20,7 @@ const CardProject = ({ project }) => {
         onClick={handleOpenModal}
       >
         <div className="card-project-image h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
-          <Image
-            preview={false}
-            width={"100%"}
+          <img
             src={project.image}
             alt={`Projet ` + project.id}
             loading="lazy"
