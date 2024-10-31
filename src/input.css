@@ -9,6 +9,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-family: "SF Pro Display";
+}
+
 @layer components {
   .light-bg,
   .dark-bg {
@@ -42,8 +46,4 @@
     height: 100vh;
     z-index: -1;
   }
-}
-
-html {
-  font-family: "SF Pro Display";
 }

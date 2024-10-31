@@ -631,6 +631,14 @@ video {
   z-index: 50;
 }
 
+.-z-10 {
+  z-index: -10;
+}
+
+.-z-20 {
+  z-index: -20;
+}
+
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -733,6 +741,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .max-h-\[550px\] {
@@ -1271,10 +1283,6 @@ html {
 
   .xl\:col-span-3 {
     grid-column: span 3 / span 3;
-  }
-
-  .xl\:col-span-4 {
-    grid-column: span 4 / span 4;
   }
 
   .xl\:row-span-1 {
