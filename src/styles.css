@@ -1019,6 +1019,21 @@ html {
   font-family: "SF Pro Display";
 }
 
+@-moz-document url-prefix() {
+  #modal-background {
+    backdrop-filter: none;
+  }
+
+  #modal {
+    backdrop-filter: none;
+    background-color: white;
+  }
+
+  .card {
+    backdrop-filter: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:dark-bg {
     position: relative;

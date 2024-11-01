@@ -37,7 +37,7 @@ const CardForm = () => {
   };
 
   return (
-    <div className="col-span-8 row-span-3 flex flex-col items-center rounded-lg bg-white/20 p-4 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-4 lg:col-span-4 dark:bg-black/20">
+    <div className="card col-span-8 row-span-3 flex flex-col items-center rounded-lg bg-white/20 p-4 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-4 lg:col-span-4 dark:bg-black/20">
       <h2 className="mb-4 text-xl font-bold">Contactez-moi</h2>
       <form
         onSubmit={handleSubmit}

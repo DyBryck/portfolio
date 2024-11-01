@@ -1,6 +1,6 @@
 const CardCV = () => {
   return (
-    <div className="col-span-3 row-span-2 flex flex-col items-center justify-around overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-4 md:row-span-1 md:flex-row lg:col-span-2 lg:row-span-2 lg:flex-col xl:col-span-3 xl:row-span-1 xl:flex-row dark:bg-black/20">
+    <div className="card col-span-3 row-span-2 flex flex-col items-center justify-around overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-4 md:row-span-1 md:flex-row lg:col-span-2 lg:row-span-2 lg:flex-col xl:col-span-3 xl:row-span-1 xl:flex-row dark:bg-black/20">
       <h3 className="hidden text-center text-2xl font-bold sm:inline">
         Curriculum
         <br />
