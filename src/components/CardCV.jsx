@@ -1,4 +1,6 @@
 const CardCV = () => {
+  const CVLink =
+    "https://drive.google.com/file/d/14Jj_T_BYCrny0NDgMjcAAWGpKnfLBskN/view?usp=share_link";
   return (
     <div className="card col-span-3 row-span-2 flex flex-col items-center justify-around overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-4 md:row-span-1 md:flex-row lg:col-span-2 lg:row-span-2 lg:flex-col xl:col-span-3 xl:row-span-1 xl:flex-row dark:bg-black/20">
       <h3 className="hidden text-center text-2xl font-bold sm:inline">
@@ -8,7 +10,7 @@ const CardCV = () => {
       </h3>
       <h3 className="text-center text-2xl font-bold sm:hidden">CV</h3>
       <a
-        href="https://drive.google.com/file/d/1TuGeutWeh6DARmQoCZLPaRwl-ilOfBBV/view?usp=share_link"
+        href={CVLink}
         target="_blank"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
       >
