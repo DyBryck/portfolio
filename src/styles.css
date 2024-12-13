@@ -117,7 +117,7 @@
 }
 
 /*
-! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -560,7 +560,7 @@ video {
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
-[hidden] {
+[hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
 
@@ -844,7 +844,7 @@ video {
 
 .bg-\[\#becacb\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(190 202 203 / var(--tw-bg-opacity));
+  background-color: rgb(190 202 203 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#e1e7e7\]\/60 {
@@ -936,7 +936,7 @@ video {
 
 .text-slate-600 {
   --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
+  color: rgb(71 85 105 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -1336,7 +1336,7 @@ html {
 
   .dark\:bg-\[\#19263f\] {
     --tw-bg-opacity: 1;
-    background-color: rgb(25 38 63 / var(--tw-bg-opacity));
+    background-color: rgb(25 38 63 / var(--tw-bg-opacity, 1));
   }
 
   .dark\:bg-black\/20 {
@@ -1353,6 +1353,6 @@ html {
 
   .dark\:text-slate-50 {
     --tw-text-opacity: 1;
-    color: rgb(248 250 252 / var(--tw-text-opacity));
+    color: rgb(248 250 252 / var(--tw-text-opacity, 1));
   }
 }

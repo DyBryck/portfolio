@@ -2,6 +2,7 @@ const CardMail = () => {
   return (
     <div className="card col-span-4 row-span-1 flex items-center justify-center rounded-lg bg-white/20 shadow-lg backdrop-blur-xl transition-all duration-500 hover:scale-105 md:row-span-1 lg:col-span-2 lg:row-span-1 xl:col-span-1 dark:bg-black/20">
       <a
+        tabIndex={1}
         href="mailto:dylan.bryckaert@gmail.com"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
       >

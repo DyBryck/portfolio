@@ -10,6 +10,7 @@ const CardCV = () => {
       </h3>
       <h3 className="text-center text-2xl font-bold sm:hidden">CV</h3>
       <a
+        tabIndex={1}
         href={CVLink}
         target="_blank"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
@@ -36,6 +37,7 @@ const CardCV = () => {
         </svg>
       </a>
       <a
+        tabIndex={1}
         href="./CV.pdf"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
         download

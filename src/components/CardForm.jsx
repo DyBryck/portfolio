@@ -40,11 +40,13 @@ const CardForm = () => {
     <div className="card col-span-8 row-span-3 flex flex-col items-center rounded-lg bg-white/20 p-4 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:col-span-4 lg:col-span-4 dark:bg-black/20">
       <h2 className="mb-4 text-xl font-bold">Contactez-moi</h2>
       <form
+        tabIndex={1}
         onSubmit={handleSubmit}
         className="flex h-full w-full flex-col gap-5"
       >
         <label className="flex flex-col">
           <input
+            tabIndex={1}
             type="name"
             autoComplete="name"
             value={name}
@@ -56,6 +58,7 @@ const CardForm = () => {
         </label>
         <label className="flex flex-col">
           <input
+            tabIndex={1}
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -66,6 +69,7 @@ const CardForm = () => {
         </label>
         <label className="flex flex-col">
           <textarea
+            tabIndex={1}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
