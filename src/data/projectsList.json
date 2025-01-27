@@ -1,5 +1,13 @@
 [
   {
+    "id": 12,
+    "heading": "Création d'un jeu narratif à choix multiple",
+    "image": "/images/projects/hide-and-seek/hide-and-seek.jpg",
+    "content": "En collaboration avec une autre étudiante, nous avons conçu un jeu narratif interactif où les choix du joueur influencent directement l’histoire et ses multiples fins possibles. Nous avons développé un arbre narratif structuré, assurant une progression fluide et cohérente à travers des scénarios variés. Ce projet m’a permis de mêler créativité et technique, tout en renforçant mes compétences en travail d’équipe.",
+    "tags": ["Tailwind", "JavaScript"],
+    "githubLink": "https://dybryck.github.io/hide-and-seek/"
+  },
+  {
     "id": 6,
     "heading": "Création d'une page web dynamique",
     "image": "/images/projects/sophie-bluel/sophie-bluel.webp",
