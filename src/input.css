@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
@@ -22,8 +22,8 @@
   position: relative;
 
   &::before {
-    content: '';
-    background-image: url('/images/background/light.webp');
+    content: "";
+    background-image: url("/images/background/light.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,8 +40,8 @@
   position: relative;
 
   &::before {
-    content: '';
-    background-image: url('/images/background/dark.webp');
+    content: "";
+    background-image: url("/images/background/dark.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -56,8 +56,8 @@
 
 @layer base {
   @font-face {
-    font-family: 'SF Pro Display';
-    src: url('./assets/fonts/SFPRODISPLAYREGULAR.woff') format('woff');
+    font-family: "SF Pro Display";
+    src: url("./assets/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
@@ -65,7 +65,7 @@
 
 @layer utilities {
   html {
-    font-family: 'SF Pro Display';
+    font-family: "SF Pro Display";
   }
 }
 
