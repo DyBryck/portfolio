@@ -39,7 +39,7 @@ const Modal = ({ project, onClose }) => {
   return (
     <div
       id="modal-background"
-      className={`fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center p-4 transition-all duration-500 md:p-8 ${isVisible ? "backdrop-blur-xl" : ""}`}
+      className={`fixed top-0 left-0 z-50 flex h-full w-full items-center justify-center p-4 transition-all duration-500 md:p-8 ${isVisible ? "backdrop-blur-xl" : ""}`}
       onClick={handleClickOutside}
     >
       <div
@@ -48,7 +48,7 @@ const Modal = ({ project, onClose }) => {
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
         }`}
       >
-        <button onClick={closeModal} className="absolute right-2 top-2 z-10">
+        <button onClick={closeModal} className="absolute top-2 right-2 z-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -79,10 +79,11 @@ const Modal = ({ project, onClose }) => {
         </div>
         <div className="image-container hidden h-4/6 w-full overflow-hidden md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
           <Image
-            width={"100%"}
+            height={"100%"}
             src={project.image}
             alt={`Projet ${project.id} ${project.heading}`}
             loading="lazy"
+            className="object-cover"
           />
         </div>
       </div>

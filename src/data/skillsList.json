@@ -20,12 +20,20 @@
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
   },
   {
+    "name": "Node.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+  },
+  {
     "name": "React",
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
   },
   {
     "name": "Redux",
     "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+  },
+  {
+    "name": "php",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-plain.svg"
   },
   {
     "name": "Git",
