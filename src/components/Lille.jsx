@@ -1,4 +1,4 @@
-const CardLille = () => {
+const Lille = () => {
   return (
     <div className="col-span-8 row-span-2 overflow-hidden rounded-lg shadow-xl transition-all duration-500 hover:scale-105 md:col-span-4 md:row-span-3 lg:row-span-2 xl:col-span-3 xl:row-span-2">
       <img
@@ -11,4 +11,4 @@ const CardLille = () => {
   );
 };
 
-export default CardLille;
+export default Lille;

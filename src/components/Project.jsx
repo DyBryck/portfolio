@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import Modal from "./Modal";
 
-const CardProject = ({ project }) => {
+const Project = ({ project }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleOpenModal = () => {
@@ -49,8 +49,8 @@ const CardProject = ({ project }) => {
   );
 };
 
-CardProject.propTypes = {
+Project.propTypes = {
   project: PropTypes.object.isRequired,
 };
 
-export default CardProject;
+export default Project;

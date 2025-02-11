@@ -1,4 +1,4 @@
-const CardDunkirk = () => {
+const Dunkirk = () => {
   return (
     <div className="col-span-5 row-span-2 overflow-hidden rounded-lg shadow-xl transition-all duration-500 hover:scale-105 md:col-span-4 lg:col-span-3 xl:col-span-2 xl:row-span-1">
       <img
@@ -11,4 +11,4 @@ const CardDunkirk = () => {
   );
 };
 
-export default CardDunkirk;
+export default Dunkirk;

@@ -1,16 +1,16 @@
 import {
   ButtonToTop,
-  CardCV,
-  CardDunkirk,
-  CardForm,
-  CardGitHub,
-  CardLille,
-  CardMail,
-  CardProject,
-  CardSection,
-  CardSkills,
+  CV,
+  Dunkirk,
+  Form,
+  GitHub,
+  Lille,
+  Mail,
+  Project,
+  Section,
+  Skills,
 } from "./components/index";
-import projectsList from "./data/projectsList.json";
+import projectList from "./data/projects.json";
 import sections from "./data/sections.json";
 
 const App = () => {
@@ -23,25 +23,25 @@ const App = () => {
         </h1>
       </div>
       <div className="grid max-w-7xl grid-flow-row auto-rows-[150px] grid-cols-8 gap-4 md:gap-8">
-        <CardSection
+        <Section
           title={sections[0].heading}
           image={sections[0].image}
           content={sections[0].content}
         />
-        <CardLille />
-        <CardMail />
-        <CardGitHub />
-        <CardDunkirk />
-        <CardCV />
-        <CardSkills />
-        <CardForm />
-        <CardSection
+        <Lille />
+        <Mail />
+        <GitHub />
+        <Dunkirk />
+        <CV />
+        <Skills />
+        <Form />
+        <Section
           title={sections[1].heading}
           image={sections[1].image}
           content={sections[1].content}
         />
-        {projectsList.map((project) => (
-          <CardProject key={project.id} project={project} />
+        {projectList.map((project) => (
+          <Project key={project.id} project={project} />
         ))}
       </div>
     </>

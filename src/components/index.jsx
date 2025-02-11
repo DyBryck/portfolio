@@ -1,23 +1,23 @@
 import ButtonToTop from "./ButtonToTop";
-import CardCV from "./CardCV";
-import CardDunkirk from "./CardDunkirk";
-import CardForm from "./CardForm";
-import CardGitHub from "./CardGitHub";
-import CardLille from "./CardLille";
-import CardMail from "./CardMail";
-import CardProject from "./CardProject";
-import CardSection from "./CardSection";
-import CardSkills from "./CardSkills";
+import CV from "./CV";
+import Dunkirk from "./Dunkirk";
+import Form from "./Form";
+import GitHub from "./GitHub";
+import Lille from "./Lille";
+import Mail from "./Mail";
+import Project from "./Project";
+import Section from "./Section";
+import Skills from "./SkillCarousel";
 
 export {
   ButtonToTop,
-  CardCV,
-  CardDunkirk,
-  CardForm,
-  CardGitHub,
-  CardLille,
-  CardMail,
-  CardProject,
-  CardSection,
-  CardSkills,
+  CV,
+  Dunkirk,
+  Form,
+  GitHub,
+  Lille,
+  Mail,
+  Project,
+  Section,
+  Skills,
 };

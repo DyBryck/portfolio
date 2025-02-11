@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CardForm = () => {
+const Form = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -91,4 +91,4 @@ const CardForm = () => {
   );
 };
 
-export default CardForm;
+export default Form;
