@@ -83,7 +83,7 @@ const Modal = ({ project, onClose }) => {
             src={project.image}
             alt={`Projet ${project.id} ${project.heading}`}
             loading="lazy"
-            className="object-cover"
+            className="w-full object-cover"
           />
         </div>
       </div>
