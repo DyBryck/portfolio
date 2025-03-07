@@ -80,10 +80,11 @@ const Modal = ({ project, onClose }) => {
         <div className="image-container hidden h-4/6 w-full overflow-hidden md:flex md:h-1/2 md:rounded-lg lg:h-full lg:w-4/6">
           <Image
             height={"100%"}
+            width={"100%"}
             src={project.image}
             alt={`Projet ${project.id} ${project.heading}`}
             loading="lazy"
-            className="w-full object-cover"
+            className="object-cover"
           />
         </div>
       </div>

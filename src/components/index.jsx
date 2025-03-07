@@ -5,6 +5,7 @@ import Form from "./Form";
 import GitHub from "./GitHub";
 import Lille from "./Lille";
 import Mail from "./Mail";
+import Name from "./Name";
 import Project from "./Project";
 import Section from "./Section";
 import Skills from "./SkillCarousel";
@@ -17,6 +18,7 @@ export {
   GitHub,
   Lille,
   Mail,
+  Name,
   Project,
   Section,
   Skills,
