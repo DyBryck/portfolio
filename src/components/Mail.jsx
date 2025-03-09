@@ -2,11 +2,13 @@ const Mail = () => {
   return (
     <div className="card col-span-4 row-span-1 flex items-center justify-center rounded-lg bg-white/20 shadow-lg backdrop-blur-xl transition-all duration-500 hover:scale-105 md:row-span-1 lg:col-span-2 lg:row-span-1 xl:col-span-1 dark:bg-black/20">
       <a
+        aria-label="Envoyer un mail en ouvrant l'application mail de votre appareil"
         tabIndex={0}
         href="mailto:dylan.bryckaert@gmail.com"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
       >
         <svg
+          aria-hidden={true}
           width="80"
           height="80"
           viewBox="0 0 24 24"

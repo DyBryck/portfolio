@@ -2,13 +2,20 @@ const GitHub = () => {
   return (
     <div className="card col-span-4 row-span-1 flex items-center justify-center rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 md:row-span-1 lg:col-span-2 lg:row-span-1 xl:col-span-1 dark:bg-black/20">
       <a
+        aria-label="Ouvrir mon profil GitHub dans un nouvel onglet"
         tabIndex={0}
         href="https://github.com/DyBryck"
         target="_blank"
         rel="noreferrer noopener"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
       >
-        <svg viewBox="0 0 128 128" width="80" height="80" fill="currentColor">
+        <svg
+          viewBox="0 0 128 128"
+          width="80"
+          height="80"
+          fill="currentColor"
+          aria-hidden={true}
+        >
           <g>
             <path
               fillRule="evenodd"

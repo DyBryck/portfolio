@@ -1,3 +1,5 @@
+import "../input.css";
+
 const CV = () => {
   const CVLink =
     "https://drive.google.com/file/d/1nW5QXdKQruV0JlqMb8icISAwsBpQaf5J/view?usp=share_link";
@@ -11,12 +13,14 @@ const CV = () => {
       </h3>
       <h3 className="text-center text-2xl font-bold sm:hidden">CV</h3>
       <a
+        aria-label="Voir le CV au format PDF dans un nouvel onglet"
         tabIndex={0}
         href={CVLink}
         target="_blank"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
       >
         <svg
+          aria-hidden={true}
           xmlns="http://www.w3.org/2000/svg"
           width="65"
           height="65"
@@ -38,12 +42,14 @@ const CV = () => {
         </svg>
       </a>
       <a
+        aria-label="Télécharger le CV (document PDF)"
         tabIndex={0}
         href="./CV.pdf"
         className="items-center justify-center transition-all duration-500 hover:scale-110"
         download
       >
         <svg
+          aria-hidden={true}
           width="65"
           height="65"
           viewBox="0 0 24 24"

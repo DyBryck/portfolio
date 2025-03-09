@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 @layer base {
   *,
   ::after,
@@ -7,6 +19,13 @@
   ::backdrop,
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
   }
 }
 
@@ -43,15 +62,6 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
-  }
-}
-
-@layer base {
-  @font-face {
-    font-family: "SF Pro Display";
-    src: url("./assets/fonts/SFPRODISPLAYREGULAR.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
   }
 }
 

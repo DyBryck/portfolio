@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../input.css";
 
 const Form = () => {
   const [name, setName] = useState("");
@@ -44,10 +45,14 @@ const Form = () => {
         onSubmit={handleSubmit}
         className="flex h-full w-full flex-col gap-5"
       >
-        <label className="flex flex-col">
+        <div className="flex flex-col">
+          <label htmlFor="name" className="sr-only">
+            Votre nom
+          </label>
           <input
+            id="name"
             tabIndex={0}
-            type="name"
+            type="text"
             autoComplete="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -55,9 +60,14 @@ const Form = () => {
             placeholder="Votre nom"
             className="rounded-lg p-1 dark:bg-black/40"
           />
-        </label>
-        <label className="flex flex-col">
+        </div>
+
+        <div className="flex flex-col">
+          <label htmlFor="email" className="sr-only">
+            Votre email
+          </label>
           <input
+            id="email"
             tabIndex={0}
             type="email"
             value={email}
@@ -66,9 +76,14 @@ const Form = () => {
             placeholder="Votre email"
             className="rounded-lg p-1 dark:bg-black/40"
           />
-        </label>
-        <label className="flex flex-col">
+        </div>
+
+        <div className="flex flex-col">
+          <label htmlFor="message" className="sr-only">
+            Message
+          </label>
           <textarea
+            id="message"
             tabIndex={0}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
@@ -76,7 +91,8 @@ const Form = () => {
             placeholder="Message"
             className="h-56 resize-none rounded-lg p-1 dark:bg-black/40"
           ></textarea>
-        </label>
+        </div>
+
         <button
           tabIndex={0}
           type="submit"
@@ -86,8 +102,8 @@ const Form = () => {
           Envoyer
         </button>
       </form>
-      {isLoading ? <p>Envoi en cours...</p> : ""}
-      {status ? <p>{status}</p> : ""}
+      {isLoading ? <p>Envoi en cours...</p> : null}
+      {status ? <p>{status}</p> : null}
     </div>
   );
 };

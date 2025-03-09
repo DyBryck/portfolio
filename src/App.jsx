@@ -18,7 +18,7 @@ const App = () => {
   return (
     <>
       <Name />
-      <div className="grid max-w-7xl grid-flow-row auto-rows-[150px] grid-cols-8 gap-4 md:gap-8">
+      <main className="grid max-w-7xl grid-flow-row auto-rows-[150px] grid-cols-8 gap-4 md:gap-8">
         <Section
           title={sections[0].heading}
           image={sections[0].image}
@@ -39,7 +39,7 @@ const App = () => {
         {projectList.map((project) => (
           <Project key={project.id} project={project} />
         ))}
-      </div>
+      </main>
       <ButtonToTop />
     </>
   );

@@ -35,9 +35,9 @@ const Project = ({ project }) => {
           />
         </div>
         <div className="flex flex-col items-center justify-between p-4">
-          <h4 className="mb-4 h-1/4 text-center text-base font-bold sm:text-xl">
+          <h3 className="mb-4 h-1/4 text-center text-base font-bold sm:text-xl">
             {project.heading}
-          </h4>
+          </h3>
           <div className="flex items-center justify-center gap-4 text-sm sm:text-base">
             {project.tags.map((tag, i) => (
               <p key={project.heading + i}>{tag}</p>
