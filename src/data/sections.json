@@ -8,5 +8,10 @@
     "heading": "Mes projets",
     "image": "/images/memojis/memoji-laptop.webp",
     "content": "Lors de mes formations, j’ai eu l’occasion de travailler sur différents projets, ce qui m’a permis d’acquérir des compétences en Git, Sass, React Redux et Node.js. Je vous en présente ici quelques-uns :"
+  },
+  {
+    "heading": "",
+    "image": "",
+    "content": "Actuellement en recherche de stage et d'alternance"
   }
 ]

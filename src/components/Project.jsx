@@ -16,9 +16,15 @@ const Project = ({ project }) => {
   return (
     <>
       <div
-        tabIndex={1}
+        tabIndex={0}
+        role="button"
         className="card group col-span-8 row-span-2 flex cursor-pointer flex-col items-center overflow-hidden rounded-lg bg-white/20 shadow-xl backdrop-blur-xl transition-all duration-500 hover:scale-105 lg:col-span-4 dark:bg-black/20"
         onClick={handleOpenModal}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            handleOpenModal();
+          }
+        }}
       >
         <div className="card-project-image h-3/4 w-full overflow-hidden rounded-t-lg object-cover">
           <img

@@ -27,6 +27,7 @@ const ButtonToTop = () => {
 
   return (
     <button
+      tabIndex={0}
       onClick={scrollToTop}
       className={`card fixed right-5 bottom-5 z-10 rounded-full bg-white/30 p-4 shadow-lg backdrop-blur-xl transition-all duration-300 hover:scale-110 active:scale-90 active:duration-100 dark:bg-black/30 ${isVisible ? "opacity-100" : "pointer-events-none opacity-0"}`}
     >

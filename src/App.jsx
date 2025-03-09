@@ -17,7 +17,6 @@ import sections from "./data/sections.json";
 const App = () => {
   return (
     <>
-      <ButtonToTop />
       <Name />
       <div className="grid max-w-7xl grid-flow-row auto-rows-[150px] grid-cols-8 gap-4 md:gap-8">
         <Section
@@ -41,6 +40,7 @@ const App = () => {
           <Project key={project.id} project={project} />
         ))}
       </div>
+      <ButtonToTop />
     </>
   );
 };
